@@ -29,18 +29,16 @@ def count_words(phrase):
         {'Porcupine': 1, 'do.': 1, 'porcupine': 1, 'see,': 1}
     """
 
-    list_of_words = phrase.lower().split('.')
     dictionary = {}
+    list_of_words = phrase.split()
+    word_list = phrase.split()
 
-    for i in range(len(list_of_words)):
-        words = list_of_words[i].split()
-        for word in words:
-            if word not in dictionary:
-                dictionary[word] = [i]
-            else:
-                if i not in dictionary[word]:
-                    dictionary[word].append(i)
-
+    for sel_word in word_list:
+        count = 0
+        for word in word_list:
+            if sel_word == word:
+                count +=1
+        dictionary[sel_word] = count
     return dictionary
 
 
