@@ -3,28 +3,42 @@
 1. What are the three main design advantages that object orientation
    can provide? Explain each concept.
 
-(replace this with your answer)
-
+    1) Encapsulation
+        - Data lives close to its functionality
+    2) Abstraction
+        - Easy to make different, interchangeable types of things
+    3) Polymorphism
+        - Flexibility of types without conditionals
 
 2. What is a class?
 
-(replace this with your answer)
+    Classes provide a means of bundling data and functionality together. 
+    Creating a new class creates a new type of object, allowing new 
+    instances of that type to be made. Each class instance can have 
+    attributes attached to it for maintaining its state. Class instances 
+    can also have methods (defined by its class) for modifying its state.
 
 
 3. What is a method?
 
-(replace this with your answer)
+    A method is a function that “belongs to” an object. In Python, the 
+    term "method" is not unique to class instances: other object types 
+    can have methods as well. For example, list objects have methods 
+    called 'append', 'insert', 'remove', 'sort', and so on.
 
 
 4. What is an instance in object orientation?
 
-(replace this with your answer)
-
+    An instance is an object in a class (an instance of a thing in a 
+    particular class)
 
 5. How is a class attribute different than an instance attribute?
    Give an example of when you might use each.
 
-(replace this with your answer)
+    Class attributes are general and applied to everything/every 
+    instance in the class. Instance attributes are more specific 
+    and can be defined to override class attributes; an instance 
+    takes the general attributes as a default.
 """
 
 
